@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom styles for the navbar */
+    .navbar-brand {
+      font-size: 1.5rem;
+      
+    }
+   
+  body{
+    background-image: url("4.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    
+  }
+
+.matter{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 200px;
+    font-size: 10px;
+    
+}
+  .matter span{
+    color: red;
+  }
+  .hi{
+    position: relative;
+  }
+ 
+  
+  .whole{
+    position: absolute;
+  }
+  .pic:hover{
+    opacity: 0.8;
+  }
+  .btn{
+    background-color: green;
+    padding: 10px;
+    margin: 20px 0;
+  width: 80px;
+    
+  }
+  .btn a{
+    color: #000;
+  }
+  .btn:hover{
+    background-color: lightgreen;
+  }
+  .btn:active{
+    transform: scale(0.9);
+  }
+  .about{
+    margin: 0 400px;
+    
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">MY PORTFOLIO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="hi">
+ <div class="whole">
+<div class="matter">
+    <h1>HI THERE!</h1>
+    <h2>I am Meghana</h2>
+    <h3>I'm into <span >WEB DEVELOPING</span></h3>
+</div>
+<div class="about">
+    <p>Welcome to my portfolio..!. I'm a Btech CSE student and a passanate web developer..</p>
+    <p>Expertice to develop and design web pages.</p>
+    <h3>MY SKILLS</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstraps</li>
+    </ul>
+    <div class="btn">
+         <a href="#">Hire me</a>
+    </div>
+</div>
+ </div>
+ 
+
+ 
+</body>
+</html>
